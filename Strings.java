@@ -14,7 +14,7 @@ public class Strings
 	
 	public Double Stringes() throws FileNotFoundException {
     
-	String name = "C:\\Users\\Abdul\\eclipse-workspace\\1090marks.txt";
+	String name = "FILE_PATH";
 	File file = new File(name);
 	Scanner input = new Scanner(file);
 	while (input.hasNextLine())
